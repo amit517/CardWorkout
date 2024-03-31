@@ -16,6 +16,7 @@
 		EF89C4B52BB6B66000B5DD60 /* CardWorkoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF89C4B42BB6B66000B5DD60 /* CardWorkoutUITests.swift */; };
 		EF89C4B72BB6B66000B5DD60 /* CardWorkoutUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF89C4B62BB6B66000B5DD60 /* CardWorkoutUITestsLaunchTests.swift */; };
 		EF89C4C42BB6B72300B5DD60 /* CardSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF89C4C32BB6B72300B5DD60 /* CardSelectionVC.swift */; };
+		EFCAF3C92BBA1B0100C99176 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCAF3C82BBA1B0100C99176 /* Cards.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		EF89C4B42BB6B66000B5DD60 /* CardWorkoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardWorkoutUITests.swift; sourceTree = "<group>"; };
 		EF89C4B62BB6B66000B5DD60 /* CardWorkoutUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardWorkoutUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		EF89C4C32BB6B72300B5DD60 /* CardSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionVC.swift; sourceTree = "<group>"; };
+		EFCAF3C82BBA1B0100C99176 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				EF89C49C2BB6B66000B5DD60 /* Assets.xcassets */,
 				EF89C49E2BB6B66000B5DD60 /* LaunchScreen.storyboard */,
 				EF89C4A12BB6B66000B5DD60 /* Info.plist */,
+				EFCAF3C82BBA1B0100C99176 /* Cards.swift */,
 			);
 			path = CardWorkout;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				EF89C4942BB6B65F00B5DD60 /* AppDelegate.swift in Sources */,
 				EF89C4962BB6B65F00B5DD60 /* SceneDelegate.swift in Sources */,
 				EF89C4C42BB6B72300B5DD60 /* CardSelectionVC.swift in Sources */,
+				EFCAF3C92BBA1B0100C99176 /* Cards.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
