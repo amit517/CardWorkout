@@ -51,6 +51,9 @@
                                 <state key="normal" title="Restart">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="restartButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Esy-pu-t5h"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0p9-Yt-d97">
                                 <rect key="frame" x="211.66666666666663" y="656" width="115" height="50"/>
@@ -64,6 +67,9 @@
                                 <state key="normal" title="Rules">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="rulesButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bc6-mW-aog"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -81,9 +87,6 @@
                     </view>
                     <connections>
                         <outlet property="cardImageView" destination="Atl-QO-mSa" id="g6u-w8-HZX"/>
-                        <outlet property="restartButton" destination="kMw-tq-yGd" id="vh5-Ky-GLL"/>
-                        <outlet property="rulesButton" destination="0p9-Yt-d97" id="ms7-TA-g8f"/>
-                        <outlet property="stopButton" destination="xxE-RP-eBI" id="KxL-wB-BpU"/>
                         <outletCollection property="buttons" destination="xxE-RP-eBI" collectionClass="NSMutableArray" id="bYF-Hh-viC"/>
                         <outletCollection property="buttons" destination="kMw-tq-yGd" collectionClass="NSMutableArray" id="WV5-IX-6Fg"/>
                         <outletCollection property="buttons" destination="0p9-Yt-d97" collectionClass="NSMutableArray" id="Ofg-RC-mHa"/>
