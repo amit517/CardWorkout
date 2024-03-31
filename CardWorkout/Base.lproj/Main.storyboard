@@ -11,7 +11,7 @@
         <!--Card SelectionVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="CardSelectionVC" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="CardSelectionVC" customModule="CardWorkout" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -35,6 +35,9 @@
                                 <state key="normal" title="Stop">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="stopButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="E5F-sZ-nxI"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kMw-tq-yGd">
                                 <rect key="frame" x="66.666666666666671" y="656" width="115.00000000000001" height="50"/>
@@ -76,6 +79,15 @@
                             <constraint firstItem="0p9-Yt-d97" firstAttribute="centerY" secondItem="kMw-tq-yGd" secondAttribute="centerY" id="q6z-ge-qkB"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="cardImageView" destination="Atl-QO-mSa" id="g6u-w8-HZX"/>
+                        <outlet property="restartButton" destination="kMw-tq-yGd" id="vh5-Ky-GLL"/>
+                        <outlet property="rulesButton" destination="0p9-Yt-d97" id="ms7-TA-g8f"/>
+                        <outlet property="stopButton" destination="xxE-RP-eBI" id="KxL-wB-BpU"/>
+                        <outletCollection property="buttons" destination="xxE-RP-eBI" collectionClass="NSMutableArray" id="bYF-Hh-viC"/>
+                        <outletCollection property="buttons" destination="kMw-tq-yGd" collectionClass="NSMutableArray" id="WV5-IX-6Fg"/>
+                        <outletCollection property="buttons" destination="0p9-Yt-d97" collectionClass="NSMutableArray" id="Ofg-RC-mHa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
